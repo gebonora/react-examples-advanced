@@ -17,4 +17,6 @@ beforeEach(() => {
   );
 });
 
-it("creates one LI per comment", () => {});
+it("creates one LI per comment", () => {
+  expect(wrapped.find("li").length).toEqual(2);
+});
