@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-# hocs
+# middleware
 /coverage
 
 # production
